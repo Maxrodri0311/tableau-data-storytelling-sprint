@@ -1,170 +1,226 @@
 {
   "executive_summary": {
     "total_applications": 1500,
-    "total_hires": 62.0,
-    "overall_hiring_rate_pct": 4.13,
-    "avg_days_in_pipeline": 9.2,
-    "total_sourcing_spend_usd": 1652030.0,
-    "cost_per_hire_usd": 26645.65
+    "total_hires": 76.0,
+    "overall_hiring_rate_pct": 5.07,
+    "avg_days_in_pipeline": 22.6,
+    "total_sourcing_spend_usd": 2397115.11,
+    "cost_per_hire_usd": 31540.99
   },
   "funnel_waterfall": [
     {
-      "stage_name": "1_Applied",
-      "candidate_count": 877,
-      "pct_of_total": 58.47,
-      "avg_stage_days": 2.5
+      "stage_name": "1_Application_Review",
+      "candidate_count": 603,
+      "pct_of_total": 40.2,
+      "avg_stage_days": 14.3
     },
     {
-      "stage_name": "2_Screening_Passed",
-      "candidate_count": 315,
-      "pct_of_total": 21.0,
-      "avg_stage_days": 9.4
+      "stage_name": "2_Technical_Screening",
+      "candidate_count": 364,
+      "pct_of_total": 24.27,
+      "avg_stage_days": 21.3
     },
     {
-      "stage_name": "3_Technical_Passed",
-      "candidate_count": 165,
-      "pct_of_total": 11.0,
-      "avg_stage_days": 19.6
+      "stage_name": "3_System_Design_Interview",
+      "candidate_count": 280,
+      "pct_of_total": 18.67,
+      "avg_stage_days": 28.2
     },
     {
-      "stage_name": "4_Executive_Passed",
-      "candidate_count": 81,
-      "pct_of_total": 5.4,
-      "avg_stage_days": 32.1
+      "stage_name": "4_Cultural_Fit",
+      "candidate_count": 149,
+      "pct_of_total": 9.93,
+      "avg_stage_days": 35.0
     },
     {
-      "stage_name": "5_Offer_Accepted",
-      "candidate_count": 62,
-      "pct_of_total": 4.13,
-      "avg_stage_days": 45.3
+      "stage_name": "5_Executive_Offer",
+      "candidate_count": 104,
+      "pct_of_total": 6.93,
+      "avg_stage_days": 42.2
     }
   ],
   "channel_performance": [
     {
-      "sourcing_channel": "Employee Referral",
-      "total_candidates": 296,
-      "total_hires": 20.0,
-      "conversion_rate_pct": 6.76,
-      "cost_per_hire_usd": 17760.0,
-      "avg_time_to_fill_days": 11.7
-    },
-    {
       "sourcing_channel": "Direct Sourcing Outreach",
-      "total_candidates": 116,
-      "total_hires": 14.0,
-      "conversion_rate_pct": 12.07,
-      "cost_per_hire_usd": 2320.0,
-      "avg_time_to_fill_days": 13.6
-    },
-    {
-      "sourcing_channel": "LinkedIn Recruiter",
-      "total_candidates": 586,
-      "total_hires": 12.0,
-      "conversion_rate_pct": 2.05,
-      "cost_per_hire_usd": 21975.0,
-      "avg_time_to_fill_days": 7.8
-    },
-    {
-      "sourcing_channel": "Inbound Careers Portal",
-      "total_candidates": 323,
-      "total_hires": 11.0,
-      "conversion_rate_pct": 3.41,
-      "cost_per_hire_usd": 1468.18,
-      "avg_time_to_fill_days": 8.0
+      "total_candidates": 333,
+      "total_hires": 28.0,
+      "conversion_rate_pct": 8.41,
+      "cost_per_hire_usd": 10113.43,
+      "avg_time_to_fill_days": 25.5
     },
     {
       "sourcing_channel": "External Headhunting Agency",
-      "total_candidates": 179,
-      "total_hires": 5.0,
-      "conversion_rate_pct": 2.79,
-      "cost_per_hire_usd": 196900.0,
-      "avg_time_to_fill_days": 8.8
+      "total_candidates": 129,
+      "total_hires": 18.0,
+      "conversion_rate_pct": 13.95,
+      "cost_per_hire_usd": 82195.55,
+      "avg_time_to_fill_days": 27.4
+    },
+    {
+      "sourcing_channel": "Employee Referral",
+      "total_candidates": 240,
+      "total_hires": 16.0,
+      "conversion_rate_pct": 6.67,
+      "cost_per_hire_usd": 26710.33,
+      "avg_time_to_fill_days": 24.9
+    },
+    {
+      "sourcing_channel": "LinkedIn Jobs",
+      "total_candidates": 560,
+      "total_hires": 11.0,
+      "conversion_rate_pct": 1.96,
+      "cost_per_hire_usd": 17852.93,
+      "avg_time_to_fill_days": 19.8
+    },
+    {
+      "sourcing_channel": "Inbound Careers Page",
+      "total_candidates": 238,
+      "total_hires": 3.0,
+      "conversion_rate_pct": 1.26,
+      "cost_per_hire_usd": 3557.13,
+      "avg_time_to_fill_days": 20.2
     }
   ],
   "department_salary_matrix": [
     {
       "department": "Data & AI",
-      "seniority_level": "Lead / Staff",
-      "avg_candidate_ask_usd": 277022.56,
-      "avg_budget_max_usd": 289618.06,
-      "avg_salary_gap_usd": -12595.5
+      "seniority_level": "Staff / Lead",
+      "avg_candidate_ask_usd": 186607.44,
+      "avg_budget_max_usd": 214848.02,
+      "avg_salary_gap_usd": -28240.59
     },
     {
       "department": "Data & AI",
       "seniority_level": "Senior",
-      "avg_candidate_ask_usd": 223991.85,
-      "avg_budget_max_usd": 227535.31,
-      "avg_salary_gap_usd": -3543.46
+      "avg_candidate_ask_usd": 139228.74,
+      "avg_budget_max_usd": 160030.06,
+      "avg_salary_gap_usd": -20801.32
     },
     {
       "department": "Data & AI",
       "seniority_level": "Mid-Level",
-      "avg_candidate_ask_usd": 147574.32,
-      "avg_budget_max_usd": 151597.22,
-      "avg_salary_gap_usd": -4022.91
+      "avg_candidate_ask_usd": 99538.08,
+      "avg_budget_max_usd": 114866.43,
+      "avg_salary_gap_usd": -15328.35
     },
     {
       "department": "Data & AI",
       "seniority_level": "Junior",
-      "avg_candidate_ask_usd": 106655.71,
-      "avg_budget_max_usd": 107787.43,
-      "avg_salary_gap_usd": -1131.72
+      "avg_candidate_ask_usd": 66667.54,
+      "avg_budget_max_usd": 80236.09,
+      "avg_salary_gap_usd": -13568.55
+    },
+    {
+      "department": "Design",
+      "seniority_level": "Staff / Lead",
+      "avg_candidate_ask_usd": 191357.13,
+      "avg_budget_max_usd": 215115.8,
+      "avg_salary_gap_usd": -23758.67
+    },
+    {
+      "department": "Design",
+      "seniority_level": "Senior",
+      "avg_candidate_ask_usd": 140713.95,
+      "avg_budget_max_usd": 160383.89,
+      "avg_salary_gap_usd": -19669.95
+    },
+    {
+      "department": "Design",
+      "seniority_level": "Mid-Level",
+      "avg_candidate_ask_usd": 97707.87,
+      "avg_budget_max_usd": 115157.14,
+      "avg_salary_gap_usd": -17449.27
+    },
+    {
+      "department": "Design",
+      "seniority_level": "Junior",
+      "avg_candidate_ask_usd": 64125.68,
+      "avg_budget_max_usd": 80199.07,
+      "avg_salary_gap_usd": -16073.39
     },
     {
       "department": "Engineering",
-      "seniority_level": "Lead / Staff",
-      "avg_candidate_ask_usd": 252960.91,
-      "avg_budget_max_usd": 265900.0,
-      "avg_salary_gap_usd": -12939.09
+      "seniority_level": "Staff / Lead",
+      "avg_candidate_ask_usd": 193125.79,
+      "avg_budget_max_usd": 215250.99,
+      "avg_salary_gap_usd": -22125.19
     },
     {
       "department": "Engineering",
       "seniority_level": "Senior",
-      "avg_candidate_ask_usd": 199004.49,
-      "avg_budget_max_usd": 204733.2,
-      "avg_salary_gap_usd": -5728.71
+      "avg_candidate_ask_usd": 139446.69,
+      "avg_budget_max_usd": 159892.36,
+      "avg_salary_gap_usd": -20445.67
     },
     {
       "department": "Engineering",
       "seniority_level": "Mid-Level",
-      "avg_candidate_ask_usd": 133785.34,
-      "avg_budget_max_usd": 139060.98,
-      "avg_salary_gap_usd": -5275.64
+      "avg_candidate_ask_usd": 97118.5,
+      "avg_budget_max_usd": 115075.28,
+      "avg_salary_gap_usd": -17956.78
     },
     {
       "department": "Engineering",
       "seniority_level": "Junior",
-      "avg_candidate_ask_usd": 96333.46,
-      "avg_budget_max_usd": 97205.16,
-      "avg_salary_gap_usd": -871.7
+      "avg_candidate_ask_usd": 66505.6,
+      "avg_budget_max_usd": 80078.98,
+      "avg_salary_gap_usd": -13573.38
     },
     {
-      "department": "Product & Design",
-      "seniority_level": "Lead / Staff",
-      "avg_candidate_ask_usd": 248945.84,
-      "avg_budget_max_usd": 248520.0,
-      "avg_salary_gap_usd": 425.84
+      "department": "Product Management",
+      "seniority_level": "Staff / Lead",
+      "avg_candidate_ask_usd": 188517.49,
+      "avg_budget_max_usd": 214704.06,
+      "avg_salary_gap_usd": -26186.58
     },
     {
-      "department": "Product & Design",
+      "department": "Product Management",
       "seniority_level": "Senior",
-      "avg_candidate_ask_usd": 178928.98,
-      "avg_budget_max_usd": 186476.74,
-      "avg_salary_gap_usd": -7547.77
+      "avg_candidate_ask_usd": 134973.37,
+      "avg_budget_max_usd": 159745.26,
+      "avg_salary_gap_usd": -24771.9
     },
     {
-      "department": "Product & Design",
+      "department": "Product Management",
       "seniority_level": "Mid-Level",
-      "avg_candidate_ask_usd": 129306.84,
-      "avg_budget_max_usd": 130000.0,
-      "avg_salary_gap_usd": -693.16
+      "avg_candidate_ask_usd": 96413.94,
+      "avg_budget_max_usd": 115063.76,
+      "avg_salary_gap_usd": -18649.82
     },
     {
-      "department": "Product & Design",
+      "department": "Product Management",
       "seniority_level": "Junior",
-      "avg_candidate_ask_usd": 88304.8,
-      "avg_budget_max_usd": 91466.67,
-      "avg_salary_gap_usd": -3161.87
+      "avg_candidate_ask_usd": 67070.52,
+      "avg_budget_max_usd": 80442.09,
+      "avg_salary_gap_usd": -13371.57
+    },
+    {
+      "department": "Revenue Operations",
+      "seniority_level": "Staff / Lead",
+      "avg_candidate_ask_usd": 190691.76,
+      "avg_budget_max_usd": 215516.63,
+      "avg_salary_gap_usd": -24824.87
+    },
+    {
+      "department": "Revenue Operations",
+      "seniority_level": "Senior",
+      "avg_candidate_ask_usd": 136157.92,
+      "avg_budget_max_usd": 159699.66,
+      "avg_salary_gap_usd": -23541.74
+    },
+    {
+      "department": "Revenue Operations",
+      "seniority_level": "Mid-Level",
+      "avg_candidate_ask_usd": 99237.74,
+      "avg_budget_max_usd": 114900.4,
+      "avg_salary_gap_usd": -15662.66
+    },
+    {
+      "department": "Revenue Operations",
+      "seniority_level": "Junior",
+      "avg_candidate_ask_usd": 65931.0,
+      "avg_budget_max_usd": 79853.11,
+      "avg_salary_gap_usd": -13922.11
     }
   ]
 }
